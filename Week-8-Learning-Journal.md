@@ -46,12 +46,11 @@ Control Variables: Knowledge on topics (basic), Environment, Time (1 hour)
 
 Conclusion:
 
-Results from this learning experiment have proved the null hypothesis to be true and the alternate hypothesis to be false. These two genres were chosen because classical music is more relaxing and allows for clear 
-concentration. Metal music meanwhile is more chaotic and distracting. This is due to the calculated P value being greater than 0.5 which indicates no significant difference. 
+Results from this learning experiment have proved the null hypothesis to be true and the alternate hypothesis to be false. This is due to the calculated P value being greater than 0.5 which indicates no significant difference. 
+These two genres were chosen because classical music is more relaxing and allows for clear concentration. Metal music meanwhile was percieved to be more chaotic and distracting.
 
-There was a limitation in terms of the quality of tests provided by ChatGPT. For example, in set 2 of the multiple choice tests for psychology there was a question on mixed economies. There were also repeats of 
-questions in the second topic tests, for example “WIn a mixed economy, the role of the government is to” was asked twice.  In addition, there was a question on production possibility curves which was not included in the notes 
-ChatGPT provided.
+There was a limitation in terms of the quality of tests provided by ChatGPT. For example, in set 2 of the multiple choice tests for psychology there was a question on mixed economies. Additionally, in the second topic questions
+were repeated. For example “In a mixed economy, the role of the government is to” was asked twice. Furthermore, there was a question on production possibility curves which was not included in ChatGPT's notes.
 
 A redirection for this learning experiment would be to test how listening to any music compared to no music at all will affect test scores.
 
@@ -61,35 +60,35 @@ This week I spent 3 hours learning for this subject.
 
 
 ## Content Insights
-WordPress custom themes must be reusable, this means nothing is to hard coded. Generally starter themes are used as a blank template, which saves a large amount of time with unnecessary coding. Template files are 
-modularised in order to generate different parts of the theme. During this process it is important to refer to the WordPress hierarchy, to understand which section of the page each PHP file modifies. 
+WordPress custom themes must be reusable, meaning nothing is hard coded. Starter themes are used as a blank template, which saves a large amount of time with unnecessary coding unrelated to the theme itself. Template files are 
+modularised in order to generate different parts of the theme (e.g. header.php). During this process it is important to refer to the WordPress hierarchy, to understand which section of the page each PHP file modifies. 
 
 The style.css file is crucial for including details about the theme in order to ensure WordPress loads it properly. A file header with the following details is required: Theme Name, Theme URI (URL of web page where 
-users can research further details about the theme), Version, Author, Text Domain, Tested up to, Requires at least, Requires PHP, Licences and Licence URI. Within this file additional customisation can be performed
-, for example changing the background colour or font as a normal style.css file would.
+users can research further details about the theme), Version, Author, Text Domain (for translations), Tested up to (WordPress version), Requires at least (WordPress version), Requires PHP (version), Licences and Licence URI. Within this file additional customisation can be performed. For example, changing the background colour or font as a normal style.css file would.
 
-WordPress also come with a functions.php file. This file acts as a WordPress plugin, allowing the addition of custom PHP functions, classes, interfaces, etc. When activated though, a child themes functions.php will 
+WordPress also comes with a functions.php file. This file acts as a WordPress plugin and allows the addition of custom PHP functions, classes, interfaces, etc. When activated though, a child themes functions.php will 
 load before a parent themes. This file can also be used for adding actions or filters to hooks (entry points to extending WordPress' functionality to add custom code), theme setup functions, loading scripts and styles 
 and include other PHP files.
 
-When producing themes in WordPress it is important to conduct regular testing. A local environment is important for providing a controlled space to develop a theme outside the live production site. In addition, it is 
-important to make sure the theme can handle a variety of content. To do this there is theme unit test data available online as an XML file containing a collection of posts, pages, comments and media. In the theme file 
+When producing themes in WordPress, regular testing is recommended. A local environment is valuable for providing a controlled space to develop a theme outside the live production site. In addition, it is 
+important to make sure the theme can handle a variety of content. To do this there is theme unit test data available online as an XML file containing a collection of posts, pages, comments and media.
+For example, [Theme Test Data](https://github.com/WordPress/theme-test-data/blob/master/themeunittestdata.wordpress.xml).
+In the theme file 
 debugging can be enabled via the wp-config.php file. This PHP file will log errors, notices and warning to a debug.log file. As mentioned in the week 4 learning journal, a staging environment should be used alongside the 
-local and live using a workflow for development and integration.
-
-
+local and live as part of a workflow for development and integration of the website.
 
 
 For themes in WordPress, a different PHP control structure is used to allow for improved mixing between PHP and HTML.
 <img width="662" alt="Screenshot 2025-03-30 234245" src="https://github.com/user-attachments/assets/562f84a4-9677-4ffe-ba7a-4faaad368189" />
 
-The inclusion of "endif" compared to a "}" improves readability as it is easier to identify. Both original and alternate methods allow for direct HTML without the need for embedding HTML through echo statements. Once themes are complete 
-they are zipped and can be hosted on the WordPress.org repository to potentially create revenue.
+The inclusion of "endif" compared to a "}" improves readability as it is easier to identify. This method allows for direct HTML, without the need for embedding HTML through echo statements. Once themes are complete 
+they are zipped and can be hosted on the WordPress.org repository as a primary or additional source of individual income.
 
 
 
 ## Career/Employability/Learning Insights
-From the learning experiment this week I have learnt that the type of music I listen to has little impact. This challenged my initial belief that music with vocals/lyrics would distract my learning as the words spoken in the music
-would conflict with my thoughts. I have also realised that creating WordPress themes could be a potential side hobby for making money. Currently there are over 31,000 themes available both free and paid. The average wordpress theme can 
-sell for anywhere between $25 to $250. This means that if I created a theme and sold it for $120, the theme could generate $60,000 in total from just 500 unit sales.
+From the learning experiment this week, I uncovered that the genre of music I listen to has little impact on my learning. This challenged my initial belief that music with vocals/lyrics would distract my learning as the words spoken in the songs
+would conflict with my thoughts. I have also discovered that creating WordPress themes could be a potential side hobby for making money. Currently there are over 31,000 themes available both free and paid. The average wordpress theme can 
+sell for anywhere between $25 to $250. This means if I created a theme and sold it for $120, this theme could generate $60,000 in total from just 500 unit sales. Interestingly, I also found a website called UpWork where users post jobs
+and developers can take on these jobs on a fixed cost or hours needed basis. Freelance jobs for WordPress themes (creating and fixing issues) were available, paying as high as $4,000. This website also includes jobs for other areas such as PHP, Javascript, UI design, HTML and more.
 

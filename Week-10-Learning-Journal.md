@@ -51,7 +51,7 @@ files the security variable was set to loose (this workflow was using the FTP-De
 
 
 ### Overall Subject Learning Insights:
-Over the course of this subject, I have achieved the main goal set in my first week's learning journal. I now possess the ability to create, deploy (front-end) and manage back-end functionality via a CI/CD pipeline. I have also learnt a large array of additional skills including:
+Over the course of this subject, I have achieved the main goal set in my first week's learning journal. I now possess the ability to create, deploy (front-end) and manage back-end functionality via a CI/CD pipeline. I have also learnt a large array of additional skills which will be significantly useful in the workplace (for example, SASS from [learning journal 9](https://github.com/1428-wsx-f1/CP3402-Weekly-Learning-Journals/blob/main/Week-9-Learning-Journal.md)) including:
 - Setting up a localhost environment (primarily using LocalWP by Flywheel)
 - Competency in using the WordPress block editor
 - Exposure to the Joomla content management system tool
